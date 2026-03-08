@@ -17,7 +17,7 @@ public class BlockHighlightModule extends Module {
     public Setting<Float> lineWidth = num("LineWidth", 1.0f, 0.1f, 5.0f);
 
     public BlockHighlightModule() {
-        super("BlockHighlight", "Draws box at the block that you are looking at", Category.RENDER);
+        super("blockhighlight", "draws box at the block that you are looking at", Category.RENDER);
     }
 
     @Subscribe
